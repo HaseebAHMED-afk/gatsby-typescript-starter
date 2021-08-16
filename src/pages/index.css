@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body{
+    background-color: #663399;
+}
+
+
+.app{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.main-heading{
+    margin-top: 100px;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+}
+.main-para{
+    color: white;
+    font-family: 'Nanum Gothic';
+    text-align: center;
+}
+.input{
+    border: white solid 1px !important;
+    margin: 15px !important;
+}
+.add-btn{
+    justify-content: right !important;
+}
+
+.bookmark-card{
+    background-color: white;
+    width: 50%;
+    margin: 25px auto;
+    padding: 15px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.bookmark-name{
+    color: rebeccapurple;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.bookmark-url{
+    font-family: 'Nanum Gothic';
+    text-decoration: none;
+    color: gray;
+}
+.bookmark-para{
+    font-family: 'Nanum Gothic';
+    color: rgb(58, 58, 58);
+    overflow-wrap: break-word;
+}
+.delete-btn{
+    display: block !important;
+    margin-top: 15px !important;
+}
